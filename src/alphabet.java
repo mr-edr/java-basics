@@ -1,6 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
-public class apattern {
+public class alphabet {
     static void main() {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter a Word: ");
@@ -321,7 +321,8 @@ public class apattern {
                             } else if ((j == 5 || j == 6) && i > 5) {
                                 System.out.print("⚡ ");
 
-                            } else System.out.print("  ");                        }
+                            } else System.out.print("  ");
+                        }
                         System.out.println();
                     }
                     break;
@@ -335,7 +336,7 @@ public class apattern {
                         }
                         System.out.println();
                     }
-                break;
+                    break;
                 default:
                     System.out.println();
             }
